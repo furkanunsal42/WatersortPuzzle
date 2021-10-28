@@ -3,7 +3,6 @@ from keras.models import Sequential
 from keras.layers import Dense, Conv2D, Flatten, Dropout, LeakyReLU
 from tensorflow.keras.utils import to_categorical
 import numpy as np
-import matplotlib.pyplot as plt
 import random as r
 
 # length
