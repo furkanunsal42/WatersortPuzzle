@@ -6,7 +6,7 @@ original game is avaliable at google play store.
 game rules are as follows:
 
 main mechanic of the game is pouring water from a tube to another.
-pouring a water is only possible if there is space avaliable at the top of the target tube and,
+pouring water is only possible if there is avaliable space at the top of the target tube and,
 water color(symbolized with differnt numbers in this project) on the top of targeted tube is the same with the one on top of source tube.
 
 pouring water continues as long as target tube complitely fills up or same colored water run out at the source tube.
@@ -14,8 +14,8 @@ empty tubes can be targetted by all colors
 
 game is won when all tubes are pure (are fully filled up and contains only one color of water).
 
-to run the files you need python with keras and tensorflow installed.
-if you have python but not tensorflow or keras run "pip install tensorflow" and "pip install keras" lines on console.
+to run the files you need python with keras, tensorflow and numpy installed.
+if you have python but not tensorflow or keras run "pip install tensorflow", "pip install keras" and "pip insall numpy" lines on console.
 
 to train the ai run the ai.py file 
 (it will override current watersort.h5 when process ends so it is not recommended if it is not your intention)
